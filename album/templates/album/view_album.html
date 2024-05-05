@@ -3,12 +3,12 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Booster Pack</title>
+    <title>My Pokémon Album</title>
     <link rel="stylesheet" type="text/css" href="{% static 'styles.css' %}" />
   </head>
   <body>
-    <h1>¡Felicidades! Has obtenido nuevos Pokémon:</h1>
-    <div class="card-container">
+    <h1>My Pokémon Album</h1>
+    <div class="container">
       {% for pokemon in pokemons %}
       <div class="card">
         <h2>{{ pokemon.name }}</h2>
